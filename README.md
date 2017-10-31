@@ -1,5 +1,5 @@
 # Title
-ADA with recipies
+Cooking With Data
 
 # Abstract
 Cooking and Eating healthy should not be complicated. In order to make this simple, we would like to explore, map and visualize flavors and ingredients that are dominant in certain dishes and cuisines, which and how ingredients are clustered around these and what information of nutrition benefit can be achieved from this. We would also like to make visualization map of flavors explorable and searchable in order to inspire and educate anyone with interest in looking behind particular recipes. 
