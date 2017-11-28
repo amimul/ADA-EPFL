@@ -25,19 +25,20 @@ Using this information we could answer other research questions.
 
 "Can we propose enhancements to certain recipes?" . 
 
-"Based on the ratings of the recipes,is it possible to find certain combinations that are loved more than others?" 
+<strike>"Based on the ratings of the recipes,is it possible to find certain combinations that are loved more than others?" </strike>
+
+Since we got feedback that we had too much research questions we decided to drop the last research question and really focus on our algorithms on the ingredients.
+
 
 # Dataset
-The dataset that will be used is the one on recipes provided by infolab stanford. This dataset consists of 2.5GB of html files, a readme and 1 $.tsv$ file with tab-seperated columns containing information about: The domain,url,recipe title,kcal,ingredients,.. but a bunch of data is missing. This data is quite limited in the information it provides therefore additional processing of the html files is necesairry to draw more interesting conclusions. We will scrape the recepies for rating and look into adding extra other info to make our picture more complete. 
+The dataset that will be used is the one on recipes provided by infolab stanford. This dataset consists of 2.5GB of html files, a readme and 1 $.tsv$ file with tab-seperated columns containing information about: The domain,url,recipe title,kcal,ingredients,.. but a bunch of data is missing. This data is quite limited in the information it provides therefore additional processing of the html files is necesairry to draw more interesting conclusions. In retrospect the ingredient data is sufficient to draw interesting conclusions (see exploretara data analysis). However we do need extra information from an external database. Why and how is described in the notebook on M2.
+# The notbook on M2 contains
+- How we clean the data
+- An explotary analysis in which we associate ingredients
+- Methods that we will use to predict ingredients.
+- Further planning of the project
 
-# A list of internal milestones up until project milestone 2
+# A list of internal milestones up until project milestone 3
+-	See notebook on M2.
 
--	Clear structuring of work packages and distributing tasks
--	Cleaning and Filtering the Dataset
--	Scraping the HTML files for extra info
--	Find subsets of ingredients that are often used together
--	Testing of Graph Plotting Techniques and various Frameworks (4.js, 		etc.)
--	Experimenting with first visualization techniques
--	Testing interactive methods (with WebGL for example)
-# Questions for TAa
-About the data set. We received 2.5GB of html files but is there a certain systematic in them? Is it possible to find the html files in thoses files with the url or do we have to go online to extract the data? 
+
