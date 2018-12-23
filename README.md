@@ -45,4 +45,4 @@ The dataset that will be used is the one on recipes provided by infolab stanford
 # Distribution of Work 
 - Adriaan: Data Cleaning, Milestone II, all the code except network analysis, textual description and documentation of notebook, recipe suggestion pipeline concept and code
 - Claas: network analysis code and discussion, writing data story, poster and presentation, iteration on LDA model, recipe suggestion pipeline concept
-- Amimul: LDA Topic modelling on the initial uncleaned ingredient bags of words, first Apriori approach and first implementation, Attempt to visualize Recipes in LDA space.
+- Amimul: LDA Topic modelling on the ingredient bags of words, first Apriori approach and first implementation, Attempt to visualize Recipes in LDA space.
